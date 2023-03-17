@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Path of Luckych</string>
+    <string name="equip">Put on</string>
+    <string name="unequip">Put of</string>
+    <string name="info">This info</string>
+    <string name="inventory">Inventory</string>
+    <string name="hint_text">Choose option</string>
+    <string name="item_info">Item info</string>
+    <string name="show_stats">Show stats</string>
+    <string name="use">Use</string>
+    <string name="drop">Drop</string>
+    <string name="back">Back</string>
+    <string name="name">Name</string>
+    <string name="icon">Icon</string>
+    <string name="spawn">Spawn</string>
+</resources>

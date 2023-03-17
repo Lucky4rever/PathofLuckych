@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".activity.InventoryWindowActivity"
+    tools:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/inventorylayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:tag="1"
+            app:srcCompat="@drawable/hero_body" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/weaponIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@mipmap/unknown_foreground"
+                android:contentDescription="@string/unequip"
+                android:tag="2" />
+
+            <ImageButton
+                android:id="@+id/shieldIcon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@mipmap/unknown_foreground"
+                android:contentDescription="@string/unequip"
+                android:tag="3" />
+
+            <ImageButton
+                android:id="@+id/armorIcon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:background="@mipmap/unknown_foreground"
+                android:contentDescription="@string/unequip"
+                android:tag="4" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="@+id/inventorylayout"
+        tools:layout_editor_absoluteX="40dp">
+
+        <Spinner
+            android:id="@+id/items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:dropDownWidth="match_parent"
+            android:minHeight="48dp"
+            android:outlineProvider="paddedBounds"
+            android:tag="5"
+            android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/items">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/ItemInfo"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/akaya_telivigala"
+                    android:tag="6"
+                    android:text="@string/item_info"
+                    android:textSize="18sp"
+                    app:cornerRadius="0dp" />
+
+                <Button
+                    android:id="@+id/Use"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/akaya_telivigala"
+                    android:tag="7"
+                    android:text="@string/use"
+                    android:textSize="18sp"
+                    app:cornerRadius="0dp" />
+
+                <Button
+                    android:id="@+id/toStory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/akaya_telivigala"
+                    android:tag="8"
+                    android:text="@string/back"
+                    android:textSize="18sp"
+                    app:cornerRadius="0dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/PersonText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/akaya_telivigala"
+                android:hint="@string/hint_text"
+                android:padding="10dp"
+                android:tag="9" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

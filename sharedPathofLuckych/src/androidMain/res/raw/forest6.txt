@@ -1,0 +1,16 @@
+I continue walking through the forest.
+It looks like the forest is thickening. I hope I'm not walking in the opposite direction to the exit?
+If you think about it, this forest is changing all the time. I wonder if I can get out?
+It looks like it's already so thick that I'm tripping over twigs and grass.
+On the other side, thorny branches get under my clothes and scratch my skin.
+It looks like I went into the "thorny" grove.
+This thought make me laugh, but the pain makes me want to cry.
+I don't know how far I've come, but I obviously don't want to go back.
+...
+$hp-5
+How long have I been walking.
+However, it looks like there is a way out ahead. One last push left!
+Aaaaaand...
+Finally, I got out of this hell. I hope I never go to a place like this again.
+
+%Forest

@@ -1,0 +1,20 @@
+I continue walking through the forest.
+It looks like the way out of the forest!
+In joy, I jump out of the forest.
+However, I was wrong.
+Looks like I found a lawn in the middle of the woods.
+Quite a beautiful place.
+Flowers grow everywhere, birds sing.
+When I go out, I notice interesting plants.
+Where I lived, this herb was medicinal.
+I rip a little.
+@+Herb
+@+Herb
+@+Herb
+@+Herb
+Suddenly I notice a snake among the grass. And 2 more behind her.
+This is very bad!
+With all legs I run into the forest. It just ruined my mood.
+However, at least he collected herbs. Looks like I can live a little longer.
+
+%Forest

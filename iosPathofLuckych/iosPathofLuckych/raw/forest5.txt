@@ -1,0 +1,18 @@
+I continue walking through the forest.
+What a strange place!
+The trees below have almost no leaves.
+The whole earth is in some kind of pits of a strange shape.
+As soon as I thought about it, I noticed a tree nearby, all scratched by giant claws.
+It looks like there is something dangerous.
+I begin to carefully hide away to the side.
+Suddenly I hear a terrible roar, similar to a bear.
+It's bad, it looks like he noticed me!
+I understand that I hesitated, and it will not work to run away. Looks like we have to fight...
+
+#mob
+#Black Saber Bear
+#Bear
+
+After that, I continued on my way. I do not know what else I will meet in this forest.
+
+%Forest

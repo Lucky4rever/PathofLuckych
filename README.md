@@ -1,4 +1,5 @@
 # Path of Luckych
+## An interactive book in which the plot is built in a new way every time. This milks new sensations from passing and eliminates the linearity of the plot, which, in ## my opinion, is the main minus of such applications.
 
 This project was created for the [Kotlinconf'23](https://kotlinconf.com/) competition.
 
